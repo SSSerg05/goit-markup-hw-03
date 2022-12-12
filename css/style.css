@@ -19,6 +19,15 @@
     --fs-title-item: 20px;  /* h3 */
 }
 
+html { 
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .body { 
     color: var(--color-text); 
     background-color: var(--color-white);
