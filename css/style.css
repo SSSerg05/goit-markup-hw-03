@@ -30,12 +30,22 @@ html { box-sizing: border-box; }
     color: var(--color-text); 
     background-color: var(--color-white);
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.container {
+    width: 1128px;
+}
 
-    /* margin: 0 auto; */
+.header {
+    display: flex; 
 }
 
 /* Logo */
 .logo {
+    margin: 24px 0 24px 156px;
+}
+.logo-link {
     font-family: 'Raleway', sans-serif;
     font-size: var(--fs-logo); /* 18px; */
     font-weight: 800;
@@ -59,7 +69,9 @@ html { box-sizing: border-box; }
 /* Nav, menu & Contacts */
 .li-menu,
 .li-contact { display: inline-block; }
-
+.menu {
+    display: inline-block;
+}
 .menu-item,
 .contact-item {
     color: var(--color-dark); 
