@@ -28,6 +28,8 @@
 }
 .container {
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -46,7 +48,7 @@
 /* Logo */
 .logo {
     display: inline-block;
-    
+    color: navy;
 }
 .logo-link {
     display: inline-block;
