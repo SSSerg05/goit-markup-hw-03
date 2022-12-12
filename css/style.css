@@ -19,17 +19,19 @@
     --fs-title-item: 20px;  /* h3 */
 }
 
-html { box-sizing: border-box;}
+/* Main */
+html { box-sizing: border-box; }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 .body { 
     color: var(--color-text); 
     background-color: var(--color-white);
     font-family: 'Roboto', sans-serif;
+
+    /* margin: 0 auto; */
 }
 
 /* Logo */
@@ -52,8 +54,12 @@ html { box-sizing: border-box;}
 
 /* Clear List */
 .list { list-style: none; }
- 
+
+
 /* Nav, menu & Contacts */
+.li-menu,
+.li-contact { display: inline-block; }
+
 .menu-item,
 .contact-item {
     color: var(--color-dark); 
@@ -71,6 +77,8 @@ html { box-sizing: border-box;}
 }
 .contact-item:active { color: var(--color-primary-brand); }
 .contact-item:focus { color: var(--color-primary-brand); }
+
+
 
 /* Title (h1, h2, h3) */
 .title { font-weight: 600; }
