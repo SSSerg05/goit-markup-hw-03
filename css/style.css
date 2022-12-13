@@ -96,12 +96,8 @@
 .menu-item,
 .contact-item {
     display: inline-block; 
-    margin-left: 20px;
     margin-right: 20px;
 }
-
-.menu-item:first-child,
-.contact-item:first-child { margin-left: 0; }
 
 .li-menu:last-child,
 .li-contact:last-child { margin-right: 0; }
@@ -176,6 +172,7 @@
     line-height: 1.5; /* 24 / 16 = 1.5 */
     letter-spacing: 0.04em;
 
+    min-width: 20px;
     padding: 16px 32px;
     cursor: pointer;
 }
@@ -224,19 +221,23 @@
 
 .feature-list,
 .product-cards,
-.team-cards {
+.team-cards,
+.gallery-list {
     display: flex;
 }
 
 .feature-item,
 .product-card,
-.team-card {
+.team-card,
+.filter-item,
+.gallery-card {
     margin-right: 24px;
 }
 
 .feature-item:last-child,
 .product-card:last-child,
-.team-card:last-child {
+.team-card:last-child,
+.filter-item:last-child {
     margin-right: 0;
 }
 
@@ -252,12 +253,38 @@
     border-radius: 0px 0px 4px 4px;
 }
 
+/* Filter buttons */
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 72px;
+}
+
+.btn-filter {
+    padding: 8px 16px;
+}
+
 
 /* Gallery */
-.gallery-item {
+.gallery-list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-card {
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+}
+.gallery-card:nth-of-type(3n) {
+    margin-right: 0;
+}
+.gallery-img {
     width: 360px;
     height: 300px;
     background-color: var(--color-primary-brand);
+    margin-bottom: 32px;
 }
 .gallery-link {
     text-decoration: none;    
@@ -266,7 +293,7 @@
     color: var(--color-white);  
 }
 
-
+/* Footer */
 .footer {
     padding: 100px 156px;
 }
