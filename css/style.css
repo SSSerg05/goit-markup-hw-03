@@ -38,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 156px;
+    padding: 24px 0;
 
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
         0px 1px 1px rgba(46, 47, 66, 0.16), 
@@ -230,8 +231,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 156px;
-    padding-right: 156px;
+    /* padding-left: 156px;
+    padding-right: 156px; */
 }
 .team {
     padding-top: 120px;
