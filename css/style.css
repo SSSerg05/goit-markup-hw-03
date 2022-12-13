@@ -25,11 +25,14 @@
     background-color: var(--color-white);
 
     font-family: 'Roboto', sans-serif;
+    outline: 2px solid red;
 }
 .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 2px solid navy;
+    margin: 0 auto;
 }
 
 
@@ -38,9 +41,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 156px;
+    outline: 2px solid green;
 }
 .nav{
-    display: flex; 
+    display: flex;
 }
 /* сброс стилей */
 /* https://medium.com/@stasonmars/%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B8%CC%86-%D1%81%D0%B1%D1%80%D0%BE%D1%81-css-f5816963c82b */
@@ -48,7 +52,6 @@
 /* Logo */
 .logo {
     display: inline-block;
-    color: navy;
 }
 .logo-link {
     display: inline-block;
@@ -82,7 +85,7 @@
  .menu {
     display: flex;
     align-items: center;
-    margin-left: 77px; 
+    margin-left: 77px;
 }
 .contacts { 
     display: flex; 
@@ -91,7 +94,11 @@
 
 /* Nav, menu & Contacts */
 .li-menu,
-.li-contact { display: inline-block; }
+.li-contact {
+    display: inline-block; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .li-menu:first-child,
 .li.contact:first-child { margin-left: 0; }
@@ -104,17 +111,15 @@
     color: var(--color-dark); 
     text-decoration: none;  
     outline: none;  
-    margin-left: 20px;
-    margin-right: 20px;
 }
 .menu-item {
     font-size: var(--fs-nav); /* 16 */
     font-weight: 600;
 }
-
 .menu-item:hover { color: var(--color-text); }
 .menu-item:focus { color: var(--color-primary-brand); }
 .menu-item:active { color: var(--color-primary-brand); }
+
 .contact-item {
     font-size: var(--fs-contact); /* 16 */
 }
@@ -122,24 +127,30 @@
 .contact-item:focus { color: var(--color-primary-brand); }
 
 
-
 /* Title (h1, h2, h3) */
-.title { font-weight: 600; }
+.title { 
+    font-weight: 600; 
+    margin: 0;
+}
 .title-main {
     font-size: var(--fs-title-main);
     line-height: 1.07; /* 60 / 56 = 1.07 */
+    margin-bottom: 48px;
 }
 .title-block {
     font-size: var(--fs-title-block);
     line-height: 1.1; /* 40 / 36 = 1.1 */
+    margin-bottom: 72px;
 }
 .title-item {
     font-size: var(--fs-title-item);
     line-height: 1.2;  /* 24 / 20 = 1.2 */
+    margin-bottom: 8px;
 }
 
 /* Text Align */
 .text {
+    margin: 0;
     font-size: var(--fs-text); /* 16px; */
     line-height: 1.5; /* 24 / 16 = 1.5 */    
     letter-spacing: 0.02em;
@@ -152,6 +163,37 @@
 .bg-light { background-color: var(--color-light); }
 .bg-dark { background-color: var(--color-dark); }
 
+.section { margin-bottom: 120px; }
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.feature-list {
+    display: flex;
+}
+.feature-item {
+    margin-right: 24px;
+}
+.feature-item:last-child {
+    margin-right: 0;
+}
 /* Buttons */
 .btn {
     background-color: var(--color-primary-brand);
@@ -165,6 +207,9 @@
     line-height: 1.5; /* 24 / 16 = 1.5 */    
     letter-spacing: 0.04em;
 
+    /* height: 51px; */
+    /* width: 170px; */
+    padding: 16px 32px;
     cursor: pointer;
 }
 
