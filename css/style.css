@@ -286,7 +286,7 @@
 
 .gallery-list > .gallery-item {
     /* outline: 1px solid red; */
-    flex-basis: calc(100% / 3 - 24px);
+    flex-basis: calc((100% / 3) - 24px);
     margin-right: 24px;
     margin-bottom: 48px;
 }
