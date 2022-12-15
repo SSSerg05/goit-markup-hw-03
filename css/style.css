@@ -285,7 +285,6 @@
 }
 
 .gallery-list > .gallery-item {
-    /* outline: 1px solid red; */
     flex-basis: calc((100% / 3) - 24px);
     margin-right: 24px;
     margin-bottom: 48px;
@@ -300,7 +299,6 @@
     width: 360px;
     height: 300px;
     background-color: var(--color-iris);
-    /* margin-bottom: 32px; */
 }
 .gallery-card .text,
 .gallery-card .title-item {
