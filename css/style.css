@@ -191,14 +191,15 @@
 }
 
 /* Sections */
-.features,
-.products,
-.team {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .features {
     padding-bottom: 0;
+}
+.gallery {
+    padding-top: 0;
 }
 /* 0 2 0 */
 /* .section + .section { 
@@ -216,8 +217,7 @@
     padding-bottom: 192px;
 }
 
-/* Sections Features, Products, Team */
-
+/* Sections Features, Products, Team, Gallery */
 
 .feature-list,
 .product-list,
