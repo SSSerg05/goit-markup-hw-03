@@ -216,8 +216,9 @@
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-.team-card .text { padding-bottom: 32px; }
-.team-card .title-item { padding-top: 32px; }
+.team-title-block {padding: 32px 0; }
+/* .team-card .text { padding-bottom: 32px; }
+.team-card .title-item { padding-top: 32px; } */
 
 /* Filter buttons */
 .filters {
