@@ -262,19 +262,12 @@
     height: 300px;
     background-color: var(--color-iris);
 }
-.gallery-card .text,
-.gallery-card .title-item {
-    padding-left: 16px;
-    padding-right: 16px;
-}
-.gallery-card .text { padding-bottom: 32px; }
-.gallery-card .title-item { padding-top: 32px; }
 
-.gallery-image > p {
-    padding: 40px 32px;
-}
+.gallery-image > p { padding: 40px 32px; }
 .gallery-link { text-decoration: none; }
+.gallery-title-block { padding: 32px 16px; }
 .gallery-item-text { color: var(--color-white); }
+
 
 /* Footer */
 .footer {
