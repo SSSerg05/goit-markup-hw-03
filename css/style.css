@@ -19,6 +19,21 @@
     --fs-title-item: 20px;  /* h3 */
 }
 
+/*  */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Main */
 .body { 
     color: var(--color-text); 
@@ -217,16 +232,15 @@
     border-radius: 0px 0px 4px 4px;
 }
 .team-title-block { padding: 32px 0; }
-/* .team-card .text { padding-bottom: 32px; }
-.team-card .title-item { padding-top: 32px; } */
 
 /* Filter buttons */
 .filters {
     align-items: center;
     justify-content: center;
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
+
 .btn-filter { 
     padding: 12px 24px; 
     color: var(--color-iris);
