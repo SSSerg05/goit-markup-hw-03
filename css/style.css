@@ -122,17 +122,17 @@
 .title-main {
     font-size: var(--fs-title-main);
     line-height: 1.07; /* 60 / 56 = 1.07 */
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .title-block {
     font-size: var(--fs-title-block);
     line-height: 1.1; /* 40 / 36 = 1.1 */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .title-item {
     font-size: var(--fs-title-item);
     line-height: 1.2;  /* 24 / 20 = 1.2 */
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 /* Text & Text-Align */
